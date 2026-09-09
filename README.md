@@ -1,7 +1,7 @@
-# ExportWeChat Windows offline test build
+# 微信导出工具｜Windows 中文离线内测版
 
-Privacy-sanitized public materials for an offline Windows test build. This repository contains documentation and launch/build notes only.
+这是一个面向中文用户的微信聊天记录导出工具内测项目，支持离线运行、语音转文字和本地导出。
 
-Excluded: chat exports, credentials, tokens, local caches, speech models, EXE files, and split archives. The original Rust/Tauri source was not available; the build workflow patches an existing executable and is not a complete source project.
+本公开仓库只保留项目说明和使用边界，不包含微信聊天记录、账号资料、密码、授权令牌、本机缓存、语音模型、EXE 文件或分卷压缩包。原始 Rust/Tauri 源码尚未取得，现有构建流程属于对已有 Windows 程序的补丁构建，不是完整源代码工程。
 
-Use only with data you own and test on a backup copy of important WeChat data.
+请只处理你本人有权导出的数据，并在测试前备份重要微信数据。
