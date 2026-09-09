@@ -1,9 +1,15 @@
-# ExportWeChat public handoff
+# 微信导出工具｜公开交接说明
 
-This repository documents an offline Windows test build workflow.
+本仓库记录一个面向中文用户的 Windows 离线微信聊天记录导出工具内测版本。
 
-The public repository excludes chat exports, account data, passwords, authorization tokens, local caches, speech models, executables, and split archives. Release artifacts should be distributed separately and reviewed before sharing.
+## 隐私与发布范围
 
-The available build is a reproducible patch workflow for an existing Windows executable, not the original Rust/Tauri source project. The release folder should contain the executable, launcher scripts, and a sibling models directory. The large speech model is intentionally not committed to Git.
+公开仓库不包含微信聊天记录、账号资料、密码、授权令牌、本机缓存、语音模型、可执行文件或分卷压缩包。正式发布包应单独分发，并在分享前再次检查内容。
 
-Use a backup copy of important WeChat data. Do not run real exports as automated tests. The executable is unsigned and Windows may display a security warning.
+## 当前状态
+
+目前可复现的构建流程针对已有 Windows 可执行程序进行前端资源补丁，并非原始 Rust/Tauri 源码工程。发布目录应包含程序、启动脚本和同级 models 模型目录；较大的语音模型不提交到 Git。
+
+## 使用安全
+
+请使用重要微信数据的备份进行测试，不要把真实导出作为自动化测试。程序未签名，Windows 可能显示安全提示。
