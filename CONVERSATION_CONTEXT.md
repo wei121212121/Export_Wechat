@@ -1,5 +1,5 @@
-# Public project context
+# 项目上下文
 
-ExportWeChat is being prepared as an offline Windows test build. The public materials preserve the product direction without publishing personal conversation data.
+这是一个面向中文用户的微信聊天记录导出工具 Windows 离线内测项目。公开材料只保留产品方向和使用说明，不公开个人对话内容。
 
-Do not commit chat exports, credentials, tokens, debug caches, local machine paths, speech models, or binary release archives.
+请勿提交微信聊天记录、账号信息、密码、令牌、调试缓存、本机路径、语音模型或二进制发布包。
